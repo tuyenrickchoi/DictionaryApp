@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_en_vi_dic"
+            android:icon="@drawable/dictionary_icon"
+            android:title="En-Vi Dictionary" />
+        <item
+            android:id="@+id/nav_vi_en_dic"
+            android:icon="@drawable/dictionary_icon"
+            android:title="Vi-En Dictionary" />
+
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/favourite_icon"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/nav_your_words"
+            android:icon="@drawable/book_icon"
+            android:title="Your Words" />
+    </group>
+
+    <item
+        android:title="Communicate">
+    <menu>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share_icon"
+            android:title="Share" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/information_icon"
+            android:title="Help" />
+    </menu>
+    </item>
+
+</menu>
